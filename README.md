@@ -9,4 +9,8 @@ The first move to build this collection focuses on the anti-viral drug remdesivi
 
 What we learn from the remdesivir label KO will be applied to future explorations along these lines. 
 
+The content of the remdesivir label is broken down and analyzed here:
+
+https://docs.google.com/spreadsheets/d/1Cs5Aq-cRJ2MTtVB9uqRuC1LnJiup95OjjY0rgrewaU0/edit?usp=sharing 
+
 More to come ... 
