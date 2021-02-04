@@ -1,4 +1,4 @@
-// Next week, we will run this code using Node.js
+// run this code using Node.js
 
 
 // Returns a list of questions that can be answered. Later --> develop optional parameter: query
@@ -34,8 +34,10 @@ function answer() {
 	// add later, return one answer id and one answer based on query... query code to loop data.questions and return closest match or message not found
 
 
-	// add now, return a list of question ids and questions
-	return remdesivir_label_object;// return all questions
-	//console.log(remdesivir_label_object);
+	// return entire list of question ids and questions
+	//return remdesivir_label_object;
+	
+	// test in Node.js
+	console.log(remdesivir_label_object);
 }
-//answer();
+answer();
