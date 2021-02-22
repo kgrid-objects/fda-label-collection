@@ -1,5 +1,5 @@
 /* run this code using Node.js
- 
+
 Summary: The send function sends back certain information based on the input.
 For example, the user can input one of the following:
 
@@ -18,7 +18,7 @@ function send(input) {
 		"question_id": "656d693bbe8f49b4b2f7f8527655636e",// 12 characters
 		"question": "What is its indication?",
 		"answer_id": "7c5573a83ba54ac5b8b412988bd8f29c",
-		"answer": "VEKLURY is indicated for adults and pediatric patients (12 years of age and older and weighing at least 40 kg) for the treatment of coronavirus disease 2019 (COVID-19) requiring hospitalization.",	
+		"answer": "VEKLURY is indicated for adults and pediatric patients (12 years of age and older and weighing at least 40 kg) for the treatment of coronavirus disease 2019 (COVID-19) requiring hospitalization.",
 		},
 		"QApair_2": {
 		"name": "where_administered",
@@ -33,7 +33,7 @@ function send(input) {
 		"question": "What testing needs to be done before Initiating and during treatment?",
 		"answer_id": "c4bff4466b1e480191d4738916c6d90c",
 		"answer": "Determine eGFR in all patients before starting VEKLURY and monitor while receiving VEKLURY as clinically appropriate. Perform hepatic laboratory testing in all patients before starting VEKLURY and while receiving VEKLURY as clinically appropriate.Determine prothrombin time in all patients before starting VEKLURY and monitor while receiving VEKLURY as clinically appropriate."
-		},		
+		},
 		"QApair_4": {
 		"name": "testing_before_initiating_and_during_treatment",
 		"question_id": "42799976d99f4b8bb900584e4c4ba39f",
@@ -152,7 +152,102 @@ function send(input) {
 		"question": "How are these products generally prepared?",
 		"answer_id": "d95933a3dc3245dda5aed34dbd1e282c",
 		"answer": "Prepare diluted solution under aseptic conditions and on same day as administration."
-		}
+    },
+    "QApair_21": {
+		"name": "reconstitution",
+		"question_id": "c669a0a8a1544b44b834b3a7131c6f14",
+		"question": "When supplied as a lyophilized powder in a vial, how should the dosage form be reconstituted?",
+		"answer_id": "0bdb4ae353aa4f28b52cc7c898b29429",
+		"answer": "VEKLURY for Injection (Supplied as 100 mg Lyophilized Powder in Vial) Reconstitution Instructions Remove the required number of single-dose vial(s) from storage. For each vial: Aseptically reconstitute VEKLURY lyophilized powder by adding 19 mL of Sterile Water for Injection using a suitably sized syringe and needle per vial. Only use Sterile Water for Injection to reconstitute VEKLURY lyophilized powder. Discard the vial if a vacuum does not pull the Sterile Water for Injection into the vial. Immediately shake the vial for 30 seconds. Allow the contents of the vial to settle for 2 to 3 minutes. A clear solution should result. If the contents of the vial are not completely dissolved, shake the vial again for 30 seconds and allow the contents to settle for 2 to 3 minutes. Repeat this procedure as necessary until the contents of the vial are completely dissolved. Discard the vial if the contents are not completely dissolved. Following reconstitution, each vial contains 100 mg/20 mL (5 mg/mL) of remdesivir solution. Use reconstituted product immediately to prepare the diluted drug product"
+    },
+    "QApair_22": {
+		"name": "reconstitute_with",
+		"question_id": "9caba88f2edd41bcab3618da60e673b1",
+		"question": "What should be used to reconstitute the lyophilized powder?",
+		"answer_id": "4fa22cd184c842d1b13d20e2bee0d67c",
+		"answer": "Only use Sterile Water for Injection to reconstitute VEKLURY lyophilized powder."
+    },
+    "QApair_23": {
+		"name": "preservatives",
+		"question_id": "55dadeea4c1f421da389b51cf6184f71",
+		"question": "Are there preservatives or bacteriostatic agents in the products?",
+		"answer_id": "cb552d4667d94df5a29cb9b53fd16e14",
+		"answer": "There is no preservative or bacteriostatic agent present in this product."
+    },
+    "QApair_24": {
+		"name": "aseptic_technique",
+		"question_id": "9dc07efbdd5342849204b822c4675020",
+		"question": "Must aseptic technique be used to prepare the products?",
+		"answer_id": "7acadd1a9e724ebca3dd28d097177009",
+		"answer": "Aseptic technique must be used in preparation of the final parenteral solution."
+    },
+    "QApair_25": {
+		"name": "immediate_use",
+		"question_id": "f3d6ba727a2f4a24969cdb4f1c4297b4",
+		"question": "Is immediate use after preparation advised?",
+		"answer_id": "2db88b47b9f6412393e7444712a3a6eb",
+		"answer": "It is always recommended to administer intravenous medication immediately after preparation when possible."
+    },
+    "QApair_26": {
+		"name": "reconstituted_product_dilution",
+		"question_id": "44a6079366fd4b9bb7a1390cc973fb1e",
+		"question": "How should the reconstituted lyophilized product be further diluted?",
+		"answer_id": "3cb881f5a0b24d93af656715245727a8",
+		"answer": "Reconstituted VEKLURY for injection, containing 100 mg/20 mL remdesivir solution, must be further diluted in either a 100 mL or 250 mL 0.9% sodium chloride infusion bag."
+    },
+    "QApair_27": {
+		"name": "recommended_diluents_for_reconstituted_product_dilution",
+		"question_id": "1e79b3e613ac4c7584fdcd070872e58f",
+		"question": "What are the recommended diluents for the reconstituted lyophilized product?",
+		"answer_id": "c3356747413b4ea58d9b055ad73b6589",
+		"answer": "Reconstituted VEKLURY for injection, containing 100 mg/20 mL remdesivir solution, must be further diluted in either a 100 mL or 250 mL 0.9% sodium chloride infusion bag."
+    },
+    "QApair_28": {
+		"name": "loading_dose_in_250_mL",
+		"question_id": "207583ef776b4c3197889ee04f613175",
+		"question": "How should a loading dose of 200mg of VEKLURY in 250mL 0.9% Sodium Chloride be prepared?",
+		"answer_id": "b9f44c24c84048febd9ef0426a0b037a",
+		"answer": "For a Loading Dose of 200mg (2 Vials) in a 250mL 0.9% Sodium Chloride infusion bag: Withdraw and discard 40mL of 0.9% sodium chloride from the bag using an appropriately sized syringe and needle. Withdraw the 40mL volume of reconstituted VEKLURY for injection from the two VEKLURY vials using an appropriately sized syringe. Discard any unused portion remaining in the reconstituted vial. Transfer the 40mL volume of reconstituted VEKLURY for injection to the selected infusion bag. Gently invert the bag 20 times to mix the solution in the bag. Do not shake."
+    },
+    "QApair_29": {
+		"name": "loading_dose_in_100_mL",
+		"question_id": "3ee84b9af79f469da441cce0b7491d4e",
+		"question": "How should a loading dose of 200mg of VEKLURY in 100mL 0.9% Sodium Chloride be prepared?",
+		"answer_id": "e5c64361c28746af8e185913ef4086b8",
+		"answer": "For a Loading Dose of 200mg (2 Vials) in a 100mL 0.9% Sodium Chloride infusion bag: Withdraw and discard 40mL of 0.9% sodium chloride from the bag using an appropriately sized syringe and needle. Withdraw the 40mL volume of reconstituted VEKLURY for injection from the two VEKLURY vials using an appropriately sized syringe. Discard any unused portion remaining in the reconstituted vial. Transfer the 40mL volume of reconstituted VEKLURY for injection to the selected infusion bag. Gently invert the bag 20 times to mix the solution in the bag. Do not shake."
+    },
+    "QApair_30": {
+		"name": "maintenance_dose_in_250_mL",
+		"question_id": "354656e3327b408d81975ca27106537e",
+		"question": "How should a maintenance dose of 200mg of VEKLURY in 250mL 0.9% Sodium Chloride be prepared?",
+		"answer_id": "bab985c271a94df7a8e23ac254593c72",
+		"answer": "For a Maintenance Dose of 100mg (1 Vial) in a 250mL 0.9% Sodium Chloride infusion bag: Withdraw and discard 20mL of 0.9% sodium chloride from the bag using an appropriately sized syringe and needle. Withdraw the 20mL volume of reconstituted VEKLURY for injection from the one VEKLURY vial using an appropriately sized syringe. Discard any unused portion remaining in the reconstituted vial. Transfer the 20mL volume of reconstituted VEKLURY for injection to the selected infusion bag. Gently invert the bag 20 times to mix the solution in the bag. Do not shake."
+    },
+    "QApair_31": {
+		"name": "maintenance_dose_in_100_mL",
+		"question_id": "d0af9e9698c54eadb67fb1be72531517",
+		"question": "How should a maintenance dose of 200mg of VEKLURY in 100mL 0.9% Sodium Chloride be prepared?",
+		"answer_id": "d4e5280cd4ce40ba9977d47e6693c0bc",
+		"answer": "For a Maintenance Dose of 100mg (1 Vial) in a 100mL 0.9% Sodium Chloride infusion bag: Withdraw and discard 20mL of 0.9% sodium chloride from the bag using an appropriately sized syringe and needle. Withdraw the 20mL volume of reconstituted VEKLURY for injection from the one VEKLURY vial using an appropriately sized syringe. Discard any unused portion remaining in the reconstituted vial. Transfer the 20mL volume of reconstituted VEKLURY for injection to the selected infusion bag. Gently invert the bag 20 times to mix the solution in the bag. Do not shake."
+    },
+    "QApair_32": {
+		"name": "prepared_infusion_solution_stability",
+		"question_id": "305f4c2e5ae940539686b409e634ec8b",
+		"question": "What is the stability of the prepared infusion solution of VEKLURY?",
+		"answer_id": "ce519bb9d44f475bb4c3b0b8b5399fb6",
+		"answer": "The prepared infusion solution is stable for 24 hours at room temperature (20°C to 25°C [68°F to 77°F]) or 48 hours at refrigerated temperature (2°C to 8°C [36°F to 46°F])."
+    },
+    "QApair_33": {
+		"name": "storage_temperatures",
+		"question_id": "67d23a9fa988457180f1e20935889035",
+		"question": "At what temperatures should the prepared infusion solution of VEKLURY be kept?",
+		"answer_id": "ce519bb9d44f475bb4c3b0b8b5399fb6",
+		"answer": "The prepared infusion solution is stable for 24 hours at room temperature (20°C to 25°C [68°F to 77°F]) or 48 hours at refrigerated temperature (2°C to 8°C [36°F to 46°F])."
+    },
+
+
+
+
 	};
 	// check user input
 	if (input === 0) {// 0 = send the whole remdesivir_label_object
@@ -211,6 +306,6 @@ function send(input) {
 // send(2);
 // send(3);
 // send(5);
-// send(4); 
+// send(4);
 // send("b2d9ea3ac32e4e2591342d7998a461d");
 send("b2d9ea3ac32e4e2591342d7998a461d3");// QApair 2
