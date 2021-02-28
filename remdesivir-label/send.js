@@ -347,7 +347,6 @@ function send(input) {
 				console.log(remdesivir_label_object[output]);
 				//return remdesivir_label_object[output];
 				found = true;
-				break;
 			}
 		}// if not found = send error message
 		if (found === false) {
