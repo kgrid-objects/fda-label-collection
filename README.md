@@ -1,7 +1,11 @@
 # fda-label-collection
 
+March 2021
 
-January 2021
+THIS COLLECTION OF FILES CORREPSONDS TO THE PAPER UNDER REVIEW TITLED, "An Experiment in Moving From Structured Product Labels to Computable Prescribing Information"
+
+The files and work described in the paper are available for inspection and review here.
+
 
 This new collection of Knowledge Objects explores how to represent the content of FDA Structured Product Labels in different ways that allow for more granular information retrieval.
 
