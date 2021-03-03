@@ -17,7 +17,8 @@ The content in this repository includes the following:
       b. a Deployment Description file
       c. a Service Description file in Open API 3.0 YAML format
       d. a Knowledge Object metadata file
-  
+6. A Postman requests file for engaging the API backed by the remdesivir SPL Knowledge Object
+
   
 Our project ultimately will have a larger scope to include making more FDA SPLs computable. For now, however, the example of remdesivir is available as as group of files listed above.
 
