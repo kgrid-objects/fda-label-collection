@@ -10,7 +10,7 @@ The content in this repository includes the following files:
 
 1. A copy of the October 2020 Remedesivir Label with its Prescribing Information in PDF format
 
-   File: 
+   File: PDF October 2020 Remdesivir
 
 
 2. A copy of the October 2020 Remedesivir Prescribing Information in XML format
