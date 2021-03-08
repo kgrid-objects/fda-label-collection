@@ -1,0 +1,13 @@
+{
+  "@id": "js/fda_label_content/v1.0",
+  "@type":"koio:KnowledgeObject",
+  "identifier": "ark:/js/fda_label_content/v1.0",
+  "version":"v1.0",
+  "title": "FDA Label Info for Remdesivir",
+  "description":"An example of FDA Drug Info for Remdesivir",
+  "keywords":["Hello","example"],
+  "hasServiceSpecification": "service.yaml",
+  "hasDeploymentSpecification": "deployment.yaml",
+  "hasPayload": "src/index.js",
+  "@context" : ["http://kgrid.org/koio/contexts/knowledgeobject.jsonld" ]
+}
