@@ -1,20 +1,27 @@
 # fda-label-collection
 
+March 2021
 
-January 2021
+THIS COLLECTION OF FILES CORREPSONDS TO THE PAPER UNDER REVIEW TITLED, "An Experiment in Moving From Structured Product Labels to Computable Prescribing Information"
 
-This new collection of Knowledge Objects explores how to represent the content of FDA Structured Product Labels in different ways that allow for more granular information retrieval.
+The files and work described in the paper are available for inspection and review here.
 
-An initial move is to convert an existing XML representation of the remdesivir prescribing information "label" into JSON using the following tool: 
+The content in this repository includes the following:
 
-https://www.convertjson.com/xml-to-json.htm
+1. A copy of the October 2020 Remedesivir Prescribing Information in PDF format
+2. A copy of the October 2020 Remedesivir Prescribing Information in XML format
+3. An Excel file with extracted content from the Remdesivir 2020 Prescribing Information organized into 86 question-and-answer paris (QApairs)
+4. A file with a JSON data object combining the 86 QA pairs
+5. A folder with a working Knowledge Grid Knowlege Object containing the following files
+      a. a SRC folder containing an index.js file with a working JavaScript function 
+      b. a Deployment Description file
+      c. a Service Description file in Open API 3.0 YAML format
+      d. a Knowledge Object metadata file
+6. A Postman requests file for engaging the API backed by the remdesivir SPL Knowledge Object
 
-Another early move is to build the remdesivir KO for this collection with content arranged in a new way. The remdesivir label Knowledge Object can be an attempt to use a question-answer approach to re-organizing and structuring remdesivir FDA label content in a large JSON object. The KO allows that large JSON object to be interrogated via an API described in its service description. 
+  
+Our project ultimately will have a larger scope to include making more FDA SPLs computable. For now, however, the example of remdesivir is available as as group of files listed above.
 
-What we learn from the remdesivir label KO will be applied to future explorations along these lines. 
+Here is more specific detail about each file, its contents and uses. In particular, for the remdesivir SPL content in a Knowledge Object, instructions for using the object are given here. In some cases, links to other technical documentation from the Knowledge Grid team are used. 
 
-The content of the remdesivir label is broken down and analyzed here:
-
-https://docs.google.com/spreadsheets/d/1Cs5Aq-cRJ2MTtVB9uqRuC1LnJiup95OjjY0rgrewaU0/edit?usp=sharing 
-
-More to come ... 
+ 
