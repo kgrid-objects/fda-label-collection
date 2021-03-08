@@ -12,6 +12,8 @@ The content in this repository includes the following files:
 
    File: PDF October 2020 Remdesivir
    
+   [!image]readmeImages/ImageOfPDF.png
+   
 
 
 2. A copy of the October 2020 Remedesivir Prescribing Information in XML format
