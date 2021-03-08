@@ -12,7 +12,7 @@ The content in this repository includes the following files:
 
    File: PDF October 2020 Remdesivir
    
-   ![image]https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/ImageOfPDF.png
+   ![image](https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/ImageOfPDF.png)
    
 
 
