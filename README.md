@@ -2,11 +2,11 @@
 
 March 2021
 
-THIS COLLECTION OF FILES CORREPSONDS TO THE PAPER UNDER REVIEW TITLED, "An Experiment in Moving From Structured Product Labels to Computable Prescribing Information"
+THIS COLLECTION OF FILES CORREPSONDS TO THE PAPER UNDER REVIEW TITLED, "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
 
 The files and work described in the paper are available for inspection and review here.
 
-The content in this repository includes the following:
+The content in this repository includes the following files:
 
 1. A copy of the October 2020 Remedesivir Prescribing Information in PDF format
 2. A copy of the October 2020 Remedesivir Prescribing Information in XML format
