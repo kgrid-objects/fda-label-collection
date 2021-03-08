@@ -10,9 +10,9 @@ The content in this repository includes the following files:
 
 1. A copy of the October 2020 Remedesivir Label with its Prescribing Information in PDF format
 
-   File: PDF October 2020 Remdesivir
+   File: PDF October 2020 Remdesivir 
    
-   ![image](https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/ImageOfPDF.png)
+   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/ImageOfPDF.png" width = "300">
    
 
 
