@@ -12,7 +12,7 @@ The content in this repository includes the following files:
 
    File: PDF October 2020 Remdesivir
    
-   [!image]readmeImages/ImageOfPDF.png
+   ![image]readmeImages/ImageOfPDF.png
    
 
 
