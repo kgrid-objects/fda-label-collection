@@ -9,12 +9,10 @@ The files and work described in the paper are available for inspection and revie
 The content in this repository includes the following files:
 
 1. A copy of the October 2020 Remedesivir Label with its Prescribing Information in PDF format
-
-   File: PDF October 2020 Remdesivir 
    
    <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/PDF.image.png" width = "300">
    
-
+   File: PDF October 2020 Remdesivir [Link] (https://github.com/kgrid-objects/fda-label-collection/blob/main/PDF%20Oct%202020%20Remdesivir.pdf)
 
 2. A copy of the October 2020 Remedesivir Prescribing Information in XML format
 4. An Excel file with extracted content from the Remdesivir 2020 Prescribing Information organized into 86 question-and-answer paris (QApairs)
