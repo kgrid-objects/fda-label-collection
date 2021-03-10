@@ -17,9 +17,14 @@ The content in this repository includes the following files:
    
 
 2. A copy of the October 2020 Remedesivir Prescribing Information in XML format
-4. An Excel file with extracted content from the Remdesivir 2020 Prescribing Information organized into 86 question-and-answer paris (QApairs)
-5. A file with a JSON data object combining the 86 QA pairs
-6. A folder with a working Knowledge Grid Knowlege Object containing the following files
+
+   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XML.image.png" width = "300">
+
+   [File: XML October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/XML%20Oct%202020%20Remdesivir.xml)
+
+3. An Excel file with extracted content from the Remdesivir 2020 Prescribing Information organized into 86 question-and-answer paris (QApairs)
+4. A file with a JSON data object combining the 86 QA pairs
+5. A folder with a working Knowledge Grid Knowlege Object containing the following files
       a. a SRC folder containing an index.js file with a working JavaScript function 
       b. a Deployment Description file
       c. a Service Description file in Open API 3.0 YAML format
