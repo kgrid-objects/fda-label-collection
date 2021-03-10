@@ -4,9 +4,7 @@ March 2021
 
 THIS COLLECTION OF FILES CORREPSONDS TO THE PAPER UNDER REVIEW TITLED, "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
 
-The files and work described in the paper are available for inspection and review here.
-
-The content in this repository includes the following files:
+The files and work described in the paper are available for inspection and review here, including:
 
 1. A copy of the October 2020 Remedesivir Label with its Prescribing Information in PDF format
    
@@ -22,7 +20,12 @@ The content in this repository includes the following files:
 
    [File: XML October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/XML%20Oct%202020%20Remdesivir.xml)
 
-3. An Excel file with extracted content from the Remdesivir 2020 Prescribing Information organized into 86 question-and-answer paris (QApairs)
+3. An Excel file with content from the Remdesivir OCT 2020 Label organized into 86 question-and-answer pairs (QApairs)
+
+   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XML.image.png" width = "600">
+
+   [File: XL with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/XL%20Table%20with%2086%20QApairs.xlsx)
+
 4. A file with a JSON data object combining the 86 QA pairs
 5. A folder with a working Knowledge Grid Knowlege Object containing the following files
       a. a SRC folder containing an index.js file with a working JavaScript function 
