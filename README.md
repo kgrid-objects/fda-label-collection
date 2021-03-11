@@ -19,9 +19,7 @@ Last revised: March 11, 2021
 
 1. PURPOSE OF THIS WORK
 
-Our project ultimately will have a larger scope to include making more FDA SPLs computable. For now, however, the example of remdesivir is available as as group of files listed above.
-
-Here is more specific detail about each file, its contents and uses. In particular, for the remdesivir SPL content in a Knowledge Object, instructions for using the object are given here. In some cases, links to other technical documentation from the Knowledge Grid team are used. 
+Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceutical manufacturers to submit detailed drug product prescribing information in an XML-based format using a common XML document schema called the Structured Product Label (SPL). SPLs resulted in global online access to FDA-approved prescribing information via the DailyMed web application from the U.S. National Library of Medicine (dailymed.nlm.nih.gov). SPLs made the content in SPLs viewable in a computer browser but they did not make the content in drug product labels computer accessible or executable. This project starts with an experiment to determine how the content in SPLs might be made computer accessible. Our ultimate aim and purpose ultimately has a larger scope, which is to make all FDA approved drug product label information content globablly computer accessible. For now, however, the example of one SPL for remdesivir is available for review and comment.
 
 ---
 
