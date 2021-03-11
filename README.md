@@ -38,9 +38,9 @@ The files and work described in the paper are available for inspection and revie
   
 ```
 2. A copy of the October 2020 Remedesivir Prescribing Information in XML format
-```
+
    [Link to File: XML October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/XML%20Oct%202020%20Remdesivir.xml)
-   
+```   
    <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XML.image.png" width = "400">
 
 ```
