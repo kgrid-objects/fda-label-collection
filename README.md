@@ -88,11 +88,11 @@ Next, in Postman:
 
 Now that the object has been activated, we will send a POST request to https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content
 
-In the body of the request, select “raw” JSON and enter the test answer ID “ce519bb9d44f475bb4c3b0b8b5399fb6”
+ - In the body of the request, select “raw” JSON and enter the test answer ID “ce519bb9d44f475bb4c3b0b8b5399fb6”
 
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/test_ko.image.png" width = "600">
 
-Send the POST request. A successful response should return the “result” JSON object with information on the KO following it.
+ - Send the POST request. A successful response should return the “result” JSON object with information on the KO following it.
 
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/response_ko.image.png" width = "600">
 
