@@ -2,7 +2,8 @@
 
 March 2021
 
-THIS COLLECTION OF FILES CORREPSONDS TO THE PAPER UNDER REVIEW TITLED, "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
+### This collection of files corresponds to the paper under review titled:
+"An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
 
 The files and work described in the paper are available for inspection and review here, including:
 
