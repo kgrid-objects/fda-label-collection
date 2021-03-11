@@ -7,6 +7,13 @@ March 2021
 
 ---
 
+TABLE OF CONTENTS
+
+   REVIEW OF AVAILABLE FILES
+   INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
+
+---
+
 REVIEW OF AVAILABLE FILES
 
 The files and work described in the paper are available for inspection and review here, including:
