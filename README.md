@@ -53,6 +53,10 @@ The files and work described in the paper are available for inspection and revie
 ```
 4. A file with a JSON data object combining the 86 QA pairs
 ```
+  [Link to File: JSON with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/JSON.dataObject%20with%2086%20QApairs.txt)
+  
+  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/JSON.image.png" width = "400">
+
 
 ```
 5. A folder with a working Knowledge Grid Knowlege Object containing the following files
