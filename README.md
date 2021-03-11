@@ -5,6 +5,10 @@ March 2021
 ### This collection of files corresponds to the paper under review titled:
 "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
 
+---
+
+REVIEW OF AVAILABLE FILES
+
 The files and work described in the paper are available for inspection and review here, including:
 
 1. A copy of the October 2020 Remedesivir Label with its Prescribing Information in PDF format
