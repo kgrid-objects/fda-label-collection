@@ -19,7 +19,7 @@ Correspondence should be directed to: Dr. Allen Flynn (ajflynn@umich.edu)
 
 ---
 
-1. PURPOSE OF THIS WORK
+## 1. PURPOSE OF THIS WORK
 
 Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceutical manufacturers to submit detailed drug product prescribing information in an XML-based format using a common XML document schema called the Structured Product Label (SPL). SPLs resulted in global online access to FDA-approved prescribing information via  DailyMed from the U.S. National Library of Medicine (dailymed.nlm.nih.gov). People can read the content of SPLs using a computer browser but SPLs did not make that content computer accessible or executable. 
 
@@ -29,7 +29,7 @@ Here we provide initial experimental results from work to make the information i
 
 ---
 
-2. REVIEW OF AVAILABLE FILES
+## 2. REVIEW OF AVAILABLE FILES
 
 The files and work described in the paper are available for inspection and review here, including:
 
@@ -83,7 +83,7 @@ A Postman requests file for engaging the API backed by the remdesivir SPL Knowle
 
 ---
 
-3. INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
+## 3. INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
 
 ```
 TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API WITHOUT HAVING TO INSTALL ANYTHING
