@@ -65,7 +65,7 @@ A file with a JSON data object combining the 86 QA pairs
 
 
 ```
-A folder with the four files that make a digital remdesivir label Knowlege Object
+The folder has four files of the digital remdesivir label Knowlege Object
 ```
 
 1. an /src folder holding an index.js file (index.js)
