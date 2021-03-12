@@ -104,7 +104,7 @@ TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API INSTANTLY ON THE WEB
 We have deployed this API already. It is easy to try it!  Just do this:
 
 1. Using your browser, go to https://reqbin.com/curl 
-2. Cut and paste the following command into 
+2. Cut and paste the following command into the window shown below
 
 curl -X 'POST' \
   'https://activator-playground.herokuapp.com/js/fda_label_content/fda_label_content' \
@@ -112,9 +112,16 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '0'
 
-3. 
-4. Do this
-5. 
+   You should see this output from running the curl command above:
+
+
+3. Next, change the last line of the curl command to:
+
+4. Do thi
+5. d
+6. d
+7. d
+8. 
 
 ```
 TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API USING POSTMAN
