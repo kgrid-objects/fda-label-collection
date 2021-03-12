@@ -5,7 +5,7 @@ Last revised: March 11, 2021
 ### This README and its collection of files correspond to the paper under review titled:
 "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
 
-Correspondence should be directed to: Dr. Allen Flynn (ajflynn@umich.edu)
+Correspondence should be directed to: Dr. Allen Flynn at the University of Michigan (ajflynn@umich.edu).
 
 ---
 
@@ -81,6 +81,8 @@ KOs of this form carry content that is computer accessible. In this case, that c
 ```
 A ZIP file of the Knowledge Object with the parts described immediately above 
 ```
+
+For convenience, the files comprising the remdesivir label KO described above are available in a single ZIP flie. This file can be downloaded and unzipped in one go. It contains the index.js, deployment.yaml, service.yaml, and metadata.json that together enable and back the Remdesivir Prescription Information API.
 
 
 ```
