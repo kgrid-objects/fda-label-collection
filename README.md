@@ -21,9 +21,11 @@ Correspondence should be directed to: Dr. Allen Flynn (ajflynn@umich.edu)
 
 ## 1. PURPOSE OF THIS WORK
 
-Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceutical manufacturers to submit detailed drug product prescribing information in an XML-based format using a common XML document schema called the Structured Product Label (SPL). SPLs resulted in global online access to FDA-approved prescribing information via  DailyMed from the U.S. National Library of Medicine (dailymed.nlm.nih.gov). People can read the content of SPLs using a computer browser but SPLs did not make that content computer accessible or executable. 
+The purpose of this work is to make FDA approved prescribing information not just available online but truly computer accessible. 
 
-This project begins with an experiment to determine how the content in SPLs might be made computer accessible. Our ultimate purpose is to make all FDA approved drug product label information computer accessible. 
+Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceutical manufacturers to submit drug product prescribing information in  XML format using a common XML document schema called the Structured Product Label (SPL). SPLs resulted in global online access to FDA-approved prescribing information via  DailyMed from the U.S. National Library of Medicine (dailymed.nlm.nih.gov). People can read the content of SPLs using a computer browser but SPLs did not make that content computer accessible, let alone executable. 
+
+This project begins with an experiment to determine how the content in SPLs might be made computer accessible.
 
 Here we provide initial experimental results from work to make the information in the SPL for remdesivir computer accessible. The maaterials here are openly available for inspection, review, and comment.
 
