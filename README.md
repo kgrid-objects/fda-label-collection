@@ -34,28 +34,28 @@ Here we provide initial experimental results from work to make the information i
 The files and work described in the paper are available for inspection and review here, including:
 
 ```
-1. A copy of the October 2020 Remedesivir Label with its Prescribing Information in PDF format
+A copy of the October 2020 Remedesivir Label with its Prescribing Information in PDF format
 ```
   [Link to File: PDF October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/PDF%20Oct%202020%20Remdesivir.pdf)
  
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/PDF.image.png" width = "400" height = "500">
   
 ```
-2. A copy of the October 2020 Remedesivir Prescribing Information in XML format
+A copy of the October 2020 Remedesivir Prescribing Information in XML format
 ```
    [Link to File: XML October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/XML%20Oct%202020%20Remdesivir.xml) 
   
    <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XML.image.png" width = "400">
 
 ```
-3. An Excel file with content from the Remdesivir OCT 2020 Label organized into 86 question-and-answer pairs (QApairs)
+An Excel file with content from the Remdesivir OCT 2020 Label organized into 86 question-and-answer pairs (QApairs)
 ```
   [Link to File: XL with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/XL%20Table%20with%2086%20QApairs.xlsx)
   
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XL.image.png" width = "400">
 
 ```
-4. A file with a JSON data object combining the 86 QA pairs
+A file with a JSON data object combining the 86 QA pairs
 ```
   [Link to File: JSON with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/JSON.dataObject%20with%2086%20QApairs.txt)
   
@@ -63,16 +63,23 @@ The files and work described in the paper are available for inspection and revie
 
 
 ```
-5. A folder with a working Knowledge Grid Knowlege Object containing the following files
+A folder with the parts of a digital Knowlege Object containing the following:
 ```
-      a. a SRC folder containing an index.js file with a working JavaScript function 
-      b. a Deployment Description file
-      c. a Service Description file in Open API 3.0 YAML format
-      d. a Knowledge Object metadata file
-    
+
+   a. an SRC folder
+   b. a Deployment Description file
+   c. a Service Description file
+   d. a Knowledge Object metdata file
+
 ```
-6. A Postman requests file for engaging the API backed by the remdesivir SPL Knowledge Object
+A ZIP file of the Knowledge Object with the parts described immediately above 
 ```
+
+
+```
+A Postman requests file for engaging the API backed by the remdesivir SPL Knowledge Object
+```
+
 
 ---
 
