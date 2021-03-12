@@ -83,13 +83,13 @@ A Postman requests file for engaging the API backed by the remdesivir SPL Knowle
 
 ---
 
-## 3. INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
+## 3. INSTRUCTIONS FOR USING THE REMDESIVIR LABEL API
 
 ```
-TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API WITHOUT HAVING TO INSTALL ANYTHING
+TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API WITHOUT ON THE WEB
 ```
 
-1. Do this
+1. Using your browser, go to https://reqbin.com/curl 
 2. Do this
 3. Do this
 
@@ -136,13 +136,14 @@ DEPLOY THE REMDESIVIR PRESCRIBING INFORMATION API ON YOUR OWN SERVER
 
 Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to use the Knowledge Object in this repo and deploy the Remdesivir Prescribing Information API any suitable server.
 
-To do this, experience with system administration and API deployment will help a lot.
+To do this, it help a lot to have experience with system administration and API deployment.
 
 The general steps to follow are:
 
-1. Do this
-2. Do this
-3. Do this
+1. Download the KGrid Activator
+2. Download the Remdesivir KO
+3. Activate the Remdesivir KO using the Activator
+4. Engage the API wherever you have deployed it
 
 
 ---
