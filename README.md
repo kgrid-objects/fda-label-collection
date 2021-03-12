@@ -93,7 +93,7 @@ A Postman requests file for engaging the API backed by the remdesivir SPL Knowle
 ## 3. INSTRUCTIONS FOR USING THE REMDESIVIR LABEL API
 
 ```
-TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API WITHOUT ON THE WEB
+TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API INSTANTLY ON THE WEB
 ```
 
 1. Using your browser, go to https://reqbin.com/curl 
