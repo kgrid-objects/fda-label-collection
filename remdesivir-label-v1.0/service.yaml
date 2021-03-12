@@ -49,11 +49,8 @@ paths:
 components:
   schemas:
     input:
-      required:
-        - id
-      properties:
-        name:
-          type: string
-          x-kgrid-label: 'Please enter a Question or Answer ID'
-          x-kgrid-unit: ''
-          example: '0'
+      oneOf:
+        - type: number
+          example: 0
+        - type: string
+          example: "ad47b354ee714cc8b7ad6ed73ca889c9"
