@@ -86,7 +86,7 @@ A Postman requests file for engaging the API backed by the remdesivir SPL Knowle
 3. INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
 
 ```
-TRY OUT THE API WITH NO DEPLOYMENT NEEDED
+TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API WITHOUT HAVING TO INSTALL ANYTHING
 ```
 
 1. Do this
@@ -94,7 +94,7 @@ TRY OUT THE API WITH NO DEPLOYMENT NEEDED
 3. Do this
 
 ```
-TRY OUT THE API USING POSTMAN
+TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API USING POSTMAN
 ```
 
 1. Download and install POSTMAN
@@ -129,6 +129,20 @@ Now that the object has been activated, we will send a POST request to https://a
 
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/response_ko.image.png" width = "600">
 
+
+```
+DEPLOY THE REMDESIVIR PRESCRIBING INFORMATION API IN A SERVER ENVIRONMENT OF YOUR CHOOSING
+```
+
+Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to use the Knowledge Object in this repo and deploy the Remdesivir Prescribing Information API any suitable server.
+
+To do this, experience with system administration and API deployment will help a lot.
+
+The general steps to follow are:
+
+1. Do this
+2. Do this
+3. Do this
 
 
 ---
