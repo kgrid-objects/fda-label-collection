@@ -131,7 +131,7 @@ Now that the object has been activated, we will send a POST request to https://a
 
 
 ```
-DEPLOY THE REMDESIVIR PRESCRIBING INFORMATION API IN A SERVER ENVIRONMENT OF YOUR CHOOSING
+DEPLOY THE REMDESIVIR PRESCRIBING INFORMATION API ON YOUR OWN SERVER
 ```
 
 Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to use the Knowledge Object in this repo and deploy the Remdesivir Prescribing Information API any suitable server.
