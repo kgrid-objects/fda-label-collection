@@ -85,6 +85,24 @@ A Postman requests file for engaging the API backed by the remdesivir SPL Knowle
 
 3. INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
 
+```
+TRY OUT THE API WITH NO DEPLOYMENT NEEDED
+```
+
+1. Do this
+2. Do this
+3. Do this
+
+```
+TRY OUT THE API USING POSTMAN
+```
+
+1. Download and install POSTMAN
+2. Download POSTMAN requests collection file from this repo
+3. Run POSTMAN
+4. Upload POSTMAN requests colllection file into your copy of POSTMAN
+5. ... 
+
 To test the KO in Postman, first save the KO zip file (remdesivir-label-v1.0.zip) to your computer.
 
 Next, in Postman:
