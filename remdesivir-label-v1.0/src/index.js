@@ -608,51 +608,46 @@ function fda_label_content(input) {
 	"answer_id":"570b69a756c4418b879129b9eeb3f080",
 	"answer":"Condition: COVID-19 Use: Treatment Weight: > 40 kg Age: > 11 years Stage: Hospitalized",
 	"answer_nature":"Unequivocal Answer"}
-
-
 	};
 
   // arr question/answers
-
+var objectOutput = [];  // empty array
 	// check user input
 	if (input === 0) {// 0 = send the whole remdesivir_label_object
 		return remdesivir_label_object;// test in Node.js
 		//return remdesivir_label_object;
 	} else if (input === 1) {// 1 = send all of the question IDs as a list
 		for (var output in remdesivir_label_object) {
-		return remdesivir_label_object[output].question_id;// test in Node.js
-		//return remdesivir_label_object[output].question_id);
+			objectOutput.push({question_id:remdesivir_label_object[output].question_id});
 		}
+		return JSON.stringify(objectOutput);
 	} else if (input === 2) {// 2 = send all of the question IDs and questions
 		for (var output in remdesivir_label_object) {
-		return remdesivir_label_object[output].question_id;// test in Node.js
-		// return remdesivir_label_object[output].question;// test in Node.js
-		//return remdesivir_label_object[output].question_id);
-		//return remdesivir_label_object[output].question);
-		}
+		  objectOutput.push({question_id:remdesivir_label_object[output].question_id,question:remdesivir_label_object[output].question});
+    }
+		return JSON.stringify(objectOutput);
 	} else if (input === 3) {// 3 = send all of the answer IDs as a list
 		for (var output in remdesivir_label_object) {
-	  return remdesivir_label_object[output].answer_id;// test in Node.js
-		//return remdesivir_label_object[output].answer_id;
+			objectOutput.push({answer_id:remdesivir_label_object[output].answer_id});
 		}
+		return JSON.stringify(objectOutput);
 	} else if (input === 4) {// 4 = send all of the answer IDs and answers
 		for (var output in remdesivir_label_object) {
-		return remdesivir_label_object[output].answer_id;// test in Node.js
-		// console.log(remdesivir_label_object[output].answer);// test in Node.js
-		//return remdesivir_label_object[output].answer_id;
-		//return remdesivir_label_object[output].answer;
+			objectOutput.push({answer_id:remdesivir_label_object[output].answer_id,answer:remdesivir_label_object[output].answer});
 		}
+		return JSON.stringify(objectOutput);
 	} else {// try finding question/answer identifier = send the single object
 		var found = false;
 		for (var output in remdesivir_label_object) {
 			if (input === remdesivir_label_object[output].question_id ||
 			input === remdesivir_label_object[output].answer_id) {
-				return(remdesivir_label_object[output]);
+				objectOutput.push(remdesivir_label_object[output]);
 				//return remdesivir_label_object[output];
 				found = true;
 			}
 		}// if not found = send error message
-		if (found === false) {
+		if (found) {return JSON.stringify(objectOutput);}
+		else {
 		return("\nInput error. Please try again.\n\
 		\n0 = send the whole remdesivir_label_object\
 		\n1 = send all of the question IDs as a list\
