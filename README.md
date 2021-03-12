@@ -68,12 +68,15 @@ A file with a JSON data object combining the 86 QA pairs
 A folder with the parts of a digital Knowlege Object containing the following:
 ```
 
-1. an /src folder holding an index.js file
-2. Deployment Description file
-3. Service Description file
-4. Knowledge Object metdata file
+1. an /src folder holding an index.js file (index.js)
+2. Deployment Description file (deployment.yaml)
+3. Service Description file (service.yaml)
+4. Knowledge Object metadata file (metadata.json)
 
-Together, these files, 
+Taken together, these four files and their file structure comprise a conformant Knowledge Object (KO). This KO meets the standards for structure and content set by the Knowledge Grid open source software effort at the University of Michigan Medical School (www.kgrid.org).  
+
+KOs of this form carry content that is computer accessible. In this case, that content is found inside the index.js file. In addition to that content, the Deployment Description carries machine-readable technical information about the runtime environment needed to instantiate the index.js file, the Service Description carries a machine-readable description of the API, and the metadata file carries descriptive metadata about the KO.
+
 
 ```
 A ZIP file of the Knowledge Object with the parts described immediately above 
