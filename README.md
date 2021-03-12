@@ -65,7 +65,7 @@ A file with a JSON data object combining the 86 QA pairs
 
 
 ```
-A folder with the parts of a digital Knowlege Object containing the following:
+A folder with the four files that make a digital remdesivir label Knowlege Object
 ```
 
 1. an /src folder holding an index.js file (index.js)
@@ -79,15 +79,17 @@ KOs of this form carry content that is computer accessible. In this case, that c
 
 
 ```
-A ZIP file of the Knowledge Object with the parts described immediately above 
+A ZIP file of the remdesivir label Knowledge Object 
 ```
 
 For convenience, the files comprising the remdesivir label KO described above are available in a single ZIP flie. This file can be downloaded and unzipped in one go. It contains the index.js, deployment.yaml, service.yaml, and metadata.json that together enable and back the Remdesivir Prescription Information API.
 
 
 ```
-A Postman requests file for engaging the API backed by the remdesivir SPL Knowledge Object
+A Postman requests file for engaging the API backed by the remdesivir label Knowledge Object
 ```
+
+This file can be downloaded and then uploaded into Postman. For more information, see the instructions below.
 
 
 ---
