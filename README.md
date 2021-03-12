@@ -5,6 +5,8 @@ Last revised: March 11, 2021
 ### This README and its collection of files correspond to the paper under review titled:
 "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
 
+Correspondence should be directed to: Dr. Allen Flynn (ajflynn@umich.edu)
+
 ---
 
 ## TABLE OF CONTENTS
@@ -19,9 +21,11 @@ Last revised: March 11, 2021
 
 1. PURPOSE OF THIS WORK
 
-Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceutical manufacturers to submit detailed drug product prescribing information in an XML-based format using a common XML document schema called the Structured Product Label (SPL). SPLs resulted in global online access to FDA-approved prescribing information via the DailyMed web application from the U.S. National Library of Medicine (dailymed.nlm.nih.gov). SPLs made the content in SPLs viewable in a computer browser but they did not make the content in drug product labels computer accessible or executable. 
+Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceutical manufacturers to submit detailed drug product prescribing information in an XML-based format using a common XML document schema called the Structured Product Label (SPL). SPLs resulted in global online access to FDA-approved prescribing information via  DailyMed from the U.S. National Library of Medicine (dailymed.nlm.nih.gov). People can read the content of SPLs using a computer browser but SPLs did not make that content computer accessible or executable. 
 
-This project starts with an experiment to determine how the content in SPLs might be made computer accessible. Our ultimate purpose is to make all FDA approved drug product label information computer accessible. For now, however, our earilest example from refashioning the information in the SPL for remdesivir is available for review and comment.
+This project begins with an experiment to determine how the content in SPLs might be made computer accessible. Our ultimate purpose is to make all FDA approved drug product label information computer accessible. 
+
+Here we provide initial experimental results from work to make the information in the SPL for remdesivir computer accessible. The maaterials here are openly available for inspection, review, and comment.
 
 ---
 
