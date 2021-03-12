@@ -100,6 +100,8 @@ This file can be downloaded and then uploaded into Postman. For more information
 TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API INSTANTLY ON THE WEB
 ```
 
+We have deployed this API already. It is easy to try it!  Just do this:
+
 1. Using your browser, go to https://reqbin.com/curl 
 2. Do this
 3. Do this
