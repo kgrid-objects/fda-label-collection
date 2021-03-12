@@ -79,17 +79,16 @@ KOs of this form carry content that is computer accessible. In this case, that c
 
 
 ```
-A ZIP file of the remdesivir label Knowledge Object 
-```
-
-For convenience, the files comprising the remdesivir label KO described above are available in a single ZIP flie. This file can be downloaded and unzipped in one go. It contains the index.js, deployment.yaml, service.yaml, and metadata.json that together enable and back the Remdesivir Prescription Information API.
-
-
-```
 A Postman requests file for engaging the API backed by the remdesivir label Knowledge Object
 ```
 
 This file can be downloaded and then uploaded into Postman. For more information, see the instructions below.
+
+```
+A Release of the remdesivir prescribing information Knowledge Object in a ZIP file
+```
+
+https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1 
 
 
 ---
