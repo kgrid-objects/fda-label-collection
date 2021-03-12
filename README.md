@@ -37,9 +37,8 @@ The files and work described in the paper are available for inspection and revie
 A copy of the October 2020 Remedesivir Label with its Prescribing Information in PDF format
 ```
   [Link to File: PDF October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/PDF%20Oct%202020%20Remdesivir.pdf)
- <div style="width: 400px; height: 200px; overflow: hidden">
-  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/PDF.image.png" width = "400">
- </div>
+
+  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/PDF.image.png" height = "400">
   
 ```
 A copy of the October 2020 Remedesivir Prescribing Information in XML format
