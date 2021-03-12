@@ -68,10 +68,12 @@ A file with a JSON data object combining the 86 QA pairs
 A folder with the parts of a digital Knowlege Object containing the following:
 ```
 
-   a. an SRC folder
-   b. a Deployment Description file
-   c. a Service Description file
-   d. a Knowledge Object metdata file
+1. an /src folder holding an index.js file
+2. Deployment Description file
+3. Service Description file
+4. Knowledge Object metdata file
+
+Together, these files, 
 
 ```
 A ZIP file of the Knowledge Object with the parts described immediately above 
