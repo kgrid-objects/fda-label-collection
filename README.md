@@ -86,7 +86,7 @@ A Postman requests file for engaging the API backed by the remdesivir SPL Knowle
 3. INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
 
 ```
-## TRY OUT THE API WITH NO DEPLOYMENT NEEDED
+TRY OUT THE API WITH NO DEPLOYMENT NEEDED
 ```
 
 1. Do this
@@ -94,7 +94,7 @@ A Postman requests file for engaging the API backed by the remdesivir SPL Knowle
 3. Do this
 
 ```
-## TRY OUT THE API USING POSTMAN
+TRY OUT THE API USING POSTMAN
 ```
 
 1. Download and install POSTMAN
