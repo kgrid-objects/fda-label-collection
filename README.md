@@ -138,14 +138,15 @@ DEPLOY THE REMDESIVIR PRESCRIBING INFORMATION API ON YOUR OWN SERVER
 
 Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to use the Knowledge Object in this repo and deploy the Remdesivir Prescribing Information API any suitable server.
 
-To do this, it help a lot to have experience with system administration and API deployment.
+To do this, it will help if have prior experience with system administration and API deployment. We can only provide high-level instructions here. The instructions use the remdesivir Knowledge Object (KO) provided here.
 
 The general steps to follow are:
 
-1. Download the KGrid Activator
-2. Download the Remdesivir KO
-3. Activate the Remdesivir KO using the Activator
-4. Engage the API wherever you have deployed it
+1. Download the KGrid Activator from 
+2. Learn how to configure and use the KGrid Activator at 
+3. Download the Remdesivir KO ZIP flie from this repo
+4. Unzip and activate the Remdesivir KO on your server using the Activator
+5. Engage the resulting Remdesivir Prescribing Information API wherever you have deployed it
 
 
 ---
