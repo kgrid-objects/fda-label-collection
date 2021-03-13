@@ -138,7 +138,7 @@ curl -X 'POST' \
 </sup>
 <p></p>
 
-3. Next, change the '0' to a '1' in the last line of the curl command to the following and run it again:
+3. Next, in REQBIN, change the '0' to a '1' in the last line of the curl command and run it again:
 
 ```
   -d '1'
@@ -150,8 +150,21 @@ curl -X 'POST' \
 "result": "[{\"question_id\":\"b8408b213e84449dbb09fe9efc8fce44\"},{\"question_id\":\"ad47b354ee714cc8b7ad6ed73ca889c9\"},{\"question_id\":\"b130fa66457849efb6272ec7deca93e1\"},{\"question_id\":\"7df59111730a49699f6864257c73738e\"},{\"question_id\":\"656d693bbe8f49b4b2f7f8527655636e\"},{\"question_id\":\"0109d944130344c2869ebc8e9329ac91\"},
 ...
 </sup>
+<p></p>
 
-4. Do thi
+4. Now, change the '1' to a '2' in the last line of the curl command and run it again on REQBIN:
+
+```
+  -d '2'
+```
+
+  Expected ouput when input is '2':
+
+<sup>
+ "result": "[{\"question_id\":\"b8408b213e84449dbb09fe9efc8fce44\",\"question\":\"What is its brand name?\"},{\"question_id\":\"ad47b354ee714cc8b7ad6ed73ca889c9\",\"question\":\"What is its generic name?\"},{\"question_id\":\"b130fa66457849efb6272ec7deca93e1\",\"question\":\"What drug products are included?\"},{\"question_id\":\"7df59111730a49699f6864257c73738e\",\"question\":\"What year was its initial U.S. approval?\"},{\"question_id\":\"656d693bbe8f49b4b2f7f8527655636e\",\"question\":\"What is its indication?\"},{\"question_id\":\"0109d944130344c2869ebc8e9329ac91\",\"question\":\"Where should it be administered?\"},{\"question_id\":\"a79effe7b17d4a778e13dc8858b6d225\",\"question\":\"What testing needs to be done before Initiating and during treatment?\"},{\"question_id\":\"c3e78446f57f4580872e8f085dc02863\",\"question\":\"What testing of kidney function needs to be done before initiating and during treatment?\"},{\"question_id\":\"42799976d99f4b8bb900584e4c4ba39f\",\"question\":\"What testing of liver function needs to be done before initiating and during treatment?\"},{\"question_id\":\"16bf1bea6419487ea70e8fb869d4a5ef\",\"question\":\"What testing related to blood coagulation needs to be done before initiating and during treatment? \"},{\"question_id\":\"ee8f02b6e42c4c8895faa75fd29b7806\",\"question\":\"What is the recommended dosage?\"},{\"question_id\":\"16e23675e7794705b4bfeb119321c466\",\"question\":\"What is the recommended treatment duration?\"},{\"question_id\":\"206beaa6195c48679d2330e594b0cd6b\",\"question\":\"What is the recommended treatment duration for patients not requiring invasive mechanical ventilation and/or extracorporeal membrane oxygenation (ECMO)?\"},{\"question_id\":\"c8fd0d1278164e7b87da37540991b846\",\"question\":\" What is the recommended treatment duration extension period if a patient does not demonstrate clinical improvement?\"},{\"question_id\":\"a21e528d802d41549a1c0d79e2beec0b\",\"question\":\"What is the recommended treatment duration for patients requiring invasive mechanical ventilation and/or extracorporeal membrane oxygenation (ECMO)?\"},{\"question_id\":\"5f61e7990a4d465fa0d5aeb109c682d0\",\"question\":\"Does the drug product need to be diluted?\"},{\"question_id\":\"cad9862cefc6415dae2b47cc839279ee\",\"question\":\"What is recommended in cases of renal impairment?\"},...   
+</sup>
+
+
 5. d
 6. d
 7. d
