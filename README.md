@@ -222,6 +222,11 @@ Here is a link to a page where the API can be tried online in a different way us
 
 https://editor.swagger.io?url=https://activator-playground.herokuapp.com/kos/js/fda_label_content/v1.0/service.yaml
 
+The link above should take you to a browser screen that looks like this:
+
+ <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/SWAGGER.image.png" width = "600">
+
+To engage the API using the Swagger Editor, click on the green POST request button on the right to begin.
 
 #### TRY OUT THE REMDESIVIR LABEL API USING POSTMAN
 
