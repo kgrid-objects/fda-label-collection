@@ -36,7 +36,7 @@ Here we provide initial experimental results from work to make the information i
 The files and work described in the paper are available for inspection and review here, including:
 
 
-#### A copy of the October 2020 Remedesivir Label in PDF format
+#### A copy of the October 2020 Remedesivir Prescribing Information in PDF format
 
   [Link to File: PDF October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/PDF%20Oct%202020%20Remdesivir.pdf)
 
@@ -50,14 +50,14 @@ The files and work described in the paper are available for inspection and revie
    <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XML.image.png" width = "400">
    
 
-#### An Excel file with content from the Remdesivir OCT 2020 Label organized into 86 question-and-answer pairs (QApairs)
+#### An Excel file with Remdesivir Prescribing Information organized into 86 question-and-answer pairs (QA pairs)
 
   [Link to File: XL with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/XL%20Table%20with%2086%20QApairs.xlsx)
   
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XL.image.png" width = "400">
 
 
-#### A file with a JSON data object combining the 86 QA pairs
+#### A file with a JSON data object combining all 86 QA pairs
 
   [Link to File: JSON with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/JSON.dataObject%20with%2086%20QApairs.txt)
   
@@ -65,7 +65,7 @@ The files and work described in the paper are available for inspection and revie
 
 
 
-#### A source code folder for the digital remdesivir label Knowlege Object
+#### A folder for the digital Remdesivir Label Knowlege Object
 
 
 There are four files in the folder called "remdesivir-label-v1.0":
@@ -75,19 +75,18 @@ There are four files in the folder called "remdesivir-label-v1.0":
 3. Service Description file (service.yaml)
 4. Knowledge Object metadata file (metadata.json)
 
-Taken together, these four files and their file structure comprise a conformant Knowledge Object (KO). This KO meets the standards for structure and content set by the Knowledge Grid open source software effort at the University of Michigan Medical School (www.kgrid.org).  
+Taken together, these four files and their file structure make a conformant Knowledge Object (KO). This Remdesivir Label KO meets the standards for structure and content of the open-source Knowledge Grid software being developed at the University of Michigan Medical School (www.kgrid.org).  
 
-KOs of this form carry content that is computer accessible. In this case, that content is found inside the index.js file. In addition to that content, the Deployment Description carries machine-readable technical information about the runtime environment needed to instantiate the index.js file, the Service Description carries a machine-readable description of the API, and the metadata file carries descriptive metadata about the KO.
-
-
-
-#### A Postman requests file for engaging the API backed by the remdesivir label Knowledge Object
+KOs carry content that is computer accessible. In this case, that content is inside the index.js file. In addition, the Deployment Description carries machine-readable technical information about the runtime environment needed to run the index.js file, the Service Description carries a machine-readable description of the API, and the metadata file carries descriptive metadata about the Remdesivir Label KO.
 
 
-This file can be downloaded and then uploaded into Postman. For more information, see the instructions below.
+#### A Postman requests file for engaging the API backed by the Remdesivir Label Knowledge Object
 
 
-#### A Release of the remdesivir prescribing information Knowledge Object in a ZIP file
+This file can be downloaded and then imported into Postman. For more information about this, see the instructions below.
+
+
+#### A Release of the Remdesivir Label Knowledge Object in a ZIP file
 
 
 https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1 
