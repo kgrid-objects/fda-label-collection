@@ -103,7 +103,7 @@ https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1
 
 We have deployed this API already. It is easy to try it!  Just do this:
 
-1. Copy the following four-line CURL command
+STEP 1. Copy the following four-line CURL command
 
 ```
 curl -X 'POST' \
@@ -113,9 +113,9 @@ curl -X 'POST' \
   -d '0'
 ```
 
-2. Using your browser, go to https://reqbin.com/curl  
+STEP 2. Using your browser, go to https://reqbin.com/curl  
 
-3. At REQBIN, paste the CURL command you copied above into the box on the left and click the 'Run' button
+STEP 3. At REQBIN, paste the CURL command you copied above into the box on the left and click the 'Run' button
 
 After clicking 'Run', the expected output when input is '0' includes ALL of the 86 QA pairs:
    
@@ -142,7 +142,7 @@ After clicking 'Run', the expected output when input is '0' includes ALL of the 
 </sup>
 <p></p>
 
-3. Next, in REQBIN, change the '0' to a '1' in the last line of the curl command and run it again:
+STEP 4. Next, in REQBIN, change the '0' to a '1' in the last line of the curl command and run it again:
 
 ```
   -d '1'
@@ -156,7 +156,7 @@ The expected ouput when input is '1' is a list of all question identifiers only:
 </sup>
 <p></p>
 
-4. Now, change the '1' to a '2' in the last line of the curl command and run it again on REQBIN:
+STEP 5. Now, change the '1' to a '2' in the last line of the curl command and run it again on REQBIN:
 
 ```
   -d '2'
@@ -170,7 +170,7 @@ This time, the expected ouput when input is '2' is a list of all question identi
 <p></p>
 
 
-5. Next, change the '2' to a '3' in the last line of the curl command and run it once again on REQBIN:
+STEP 6. Next, change the '2' to a '3' in the last line of the curl command and run it once again on REQBIN:
 
 ```
   -d '3'
@@ -183,7 +183,7 @@ The expected ouput when input is '3' is a list of all answer identifiers only:
 </sup>
 <p></p>
 
-6. Now change the '3' to a '4' in the last line of the curl command and run it another time on REQBIN:
+STEP 7. Now change the '3' to a '4' in the last line of the curl command and run it another time on REQBIN:
 
 ```
   -d '4'
@@ -196,7 +196,7 @@ The expected ouput when input is '4' is a list of all answer identifiers and the
 </sup>
 <p></p>
 
-7. Finally, using REQBIN, request a specific question and its answer by submitting a question identifier by using this input:
+STEP 8. Finally, using REQBIN, request a specific question and its answer by submitting a question identifier by using this input:
 
 ```
   -d '"656d693bbe8f49b4b2f7f8527655636e"'
@@ -211,6 +211,9 @@ The output from this request gives the indication :
 
 #### TRY OUT THE REMDESIVIR LABEL API ONLINE USING THE SWAGGER EDITOR
 
+Here is a link to a page where the API can be tried online in a different way using the Swagger Editor:
+
+https://editor.swagger.io?url=https://activator-playground.herokuapp.com/kos/js/fda_label_content/v1.0/service.yaml
 
 
 #### TRY OUT THE REMDESIVIR LABEL API USING POSTMAN
