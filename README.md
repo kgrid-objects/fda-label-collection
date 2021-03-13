@@ -106,16 +106,50 @@ We have deployed this API already. It is easy to try it!  Just do this:
 1. Using your browser, go to https://reqbin.com/curl 
 2. Cut and paste the following command into the window shown below
 
+```
 curl -X 'POST' \
   'https://activator-playground.herokuapp.com/js/fda_label_content/fda_label_content' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '0'
+```
 
-   You should see this output from running the curl command above:
+   You will get all the QA pairs as output by running the curl command above:
 
+```
+{
+    "result": {
+        "QApair_1": {
+            "QApair_label": "brand_name",
+            "question_id": "b8408b213e84449dbb09fe9efc8fce44",
+            "question": "What is its brand name?",
+            "answer_id": "95dca543c2344635b15a90e3c2fac164",
+            "answer": "VEKLURY",
+            "answer_nature": "Unequivocal Answer"
+        },
+        "QApair_2": {
+            "QApair_label": "generic_name",
+            "question_id": "ad47b354ee714cc8b7ad6ed73ca889c9",
+            "question": "What is its generic name?",
+            "answer_id": "0448074035454eacabeddaabb6777820",
+            "answer": "remdesivir",
+            "answer_nature": "Unequivocal Answer"
+        },
+        ...
+```
 
-3. Next, change the last line of the curl command to:
+3. Next, change the '0' to a '1' in the last line of the curl command to the following and run it again:
+
+```
+  -d '1'
+```
+
+  You will get a list of all of the question identifiers (question_ids) this way:
+  
+```
+"result": "[{\"question_id\":\"b8408b213e84449dbb09fe9efc8fce44\"},{\"question_id\":\"ad47b354ee714cc8b7ad6ed73ca889c9\"},{\"question_id\":\"b130fa66457849efb6272ec7deca93e1\"},{\"question_id\":\"7df59111730a49699f6864257c73738e\"},{\"question_id\":\"656d693bbe8f49b4b2f7f8527655636e\"},{\"question_id\":\"0109d944130344c2869ebc8e9329ac91\"},
+...
+```
 
 4. Do thi
 5. d
