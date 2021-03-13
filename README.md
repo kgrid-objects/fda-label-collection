@@ -98,7 +98,7 @@ https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1
 ## 3. INSTRUCTIONS FOR USING THE REMDESIVIR LABEL API
 
 
-#### TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API INSTANTLY ON THE WEB
+#### TRY OUT THE REMDESIVIR LABEL API IMMEDIATELY VIA THE WEB
 
 
 We have deployed this API already. It is easy to try it!  Just do this:
@@ -170,9 +170,8 @@ curl -X 'POST' \
 7. d
 8. 
 
-```
-TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API USING POSTMAN
-```
+
+#### TRY OUT THE REMDESIVIR LABEL API USING POSTMAN
 
 1. Download and install POSTMAN
 2. Download POSTMAN requests collection file from this repo
@@ -207,9 +206,9 @@ Now that the object has been activated, we will send a POST request to https://a
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/response_ko.image.png" width = "800">
 
 
-```
-DEPLOY THE REMDESIVIR PRESCRIBING INFORMATION API ON YOUR OWN SERVER
-```
+
+#### DEPLOY THE REMDESIVIR LABEL API ON YOUR OWN SERVER
+
 
 Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to use the Knowledge Object in this repo and deploy the Remdesivir Prescribing Information API any suitable server.
 
