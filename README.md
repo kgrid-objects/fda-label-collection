@@ -42,31 +42,31 @@ The files and work described in the paper are available for inspection and revie
 
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/PDF.image.png" height = "400">
   
-```
-A copy of the October 2020 Remedesivir Prescribing Information in XML format
-```
+
+#### A copy of the October 2020 Remedesivir Prescribing Information in XML format
+
    [Link to File: XML October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/XML%20Oct%202020%20Remdesivir.xml) 
   
    <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XML.image.png" width = "400">
    
-```
-An Excel file with content from the Remdesivir OCT 2020 Label organized into 86 question-and-answer pairs (QApairs)
-```
+
+#### An Excel file with content from the Remdesivir OCT 2020 Label organized into 86 question-and-answer pairs (QApairs)
+
   [Link to File: XL with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/XL%20Table%20with%2086%20QApairs.xlsx)
   
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XL.image.png" width = "400">
 
-```
-A file with a JSON data object combining the 86 QA pairs
-```
+
+#### A file with a JSON data object combining the 86 QA pairs
+
   [Link to File: JSON with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/JSON.dataObject%20with%2086%20QApairs.txt)
   
   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/JSON.image.png" height = "300">
 
 
-```
-A source code folder for the digital remdesivir label Knowlege Object
-```
+
+#### A source code folder for the digital remdesivir label Knowlege Object
+
 
 There are four files in the folder called "remdesivir-label-v1.0":
 
@@ -80,15 +80,15 @@ Taken together, these four files and their file structure comprise a conformant 
 KOs of this form carry content that is computer accessible. In this case, that content is found inside the index.js file. In addition to that content, the Deployment Description carries machine-readable technical information about the runtime environment needed to instantiate the index.js file, the Service Description carries a machine-readable description of the API, and the metadata file carries descriptive metadata about the KO.
 
 
-```
-A Postman requests file for engaging the API backed by the remdesivir label Knowledge Object
-```
+
+#### A Postman requests file for engaging the API backed by the remdesivir label Knowledge Object
+
 
 This file can be downloaded and then uploaded into Postman. For more information, see the instructions below.
 
-```
-A Release of the remdesivir prescribing information Knowledge Object in a ZIP file
-```
+
+#### A Release of the remdesivir prescribing information Knowledge Object in a ZIP file
+
 
 https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1 
 
@@ -97,9 +97,9 @@ https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1
 
 ## 3. INSTRUCTIONS FOR USING THE REMDESIVIR LABEL API
 
-```
-TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API INSTANTLY ON THE WEB
-```
+
+#### TRY OUT THE REMDESIVIR PRESCRIBING INFORMATION API INSTANTLY ON THE WEB
+
 
 We have deployed this API already. It is easy to try it!  Just do this:
 
