@@ -13,7 +13,9 @@ Correspondence should be directed to: Dr. Allen Flynn at the University of Michi
 
    #### 1. PURPOSE OF THIS WORK
 
-   #### 2. REVIEW OF AVAILABLE FILES
+   #### 2. BREIF TECHNICAL BACKGROUND
+   
+   #### 3. REVIEW OF FILES
    
    #### 3. INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
 
@@ -31,7 +33,13 @@ Here we provide initial experimental results from work to make the information i
 
 ---
 
-## 2. REVIEW OF AVAILABLE FILES
+## 2. BRIEF TECHNICAL BACKGROUND
+
+The first experiment for this project breaks down and then re-represents and reorganizes the FDA-approved prescribing information for Remdesivir. To do so, a question and answer pattern is used and the content generated is serialized as a JavaScript Object Notation (JSON) data object. Next, the JSON data object with its pairs of questions and corresponding answers (QA pairs) is then wrapped in a JavaScript function. This JavaScript function is then augmented with several other files to form a compound digital Knowledge Object (KO). Finally, when used with a tool called the KGrid Activator, the Remdesivir Label KO enables an application programming interface (API). Once the Remdesivir Label API is established then client applications running on computers can directly access the questions and answers that convey prescribing information for Remdesivir.   
+
+---
+
+## 3. REVIEW OF FILES
 
 The files and work described in the paper are available for inspection and review here, including:
 
@@ -94,7 +102,7 @@ https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1
 
 ---
 
-## 3. INSTRUCTIONS FOR USING THE REMDESIVIR LABEL API
+## 4. INSTRUCTIONS FOR USING THE REMDESIVIR LABEL API
 
 
 #### TRY OUT THE REMDESIVIR LABEL API IMMEDIATELY VIA THE WEB
