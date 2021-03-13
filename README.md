@@ -103,7 +103,7 @@ https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1
 
 We have deployed this API already. It is easy to try it!  Just do this:
 
-1. Using your browser, go to https://reqbin.com/curl 
+1. Using your browser, go to <a href="https://reqbin.com/curl" target="_blank" rel="noopener noreferrer"></a>
 2. Cut and paste the following command into the window shown below
 
 ```
@@ -175,7 +175,7 @@ curl -X 'POST' \
   Expected ouput when input is '3' is a list of all answer identifiers only:
 
 <sup>
-
+ "result": "[{\"answer_id\":\"95dca543c2344635b15a90e3c2fac164\"},{\"answer_id\":\"0448074035454eacabeddaabb6777820\"},{\"answer_id\":\"74d406dff7cd4774a538f1fe8bb90cdc\"},{\"answer_id\":\"bd10d1988c90413599e83481a46b1546\"},{\"answer_id\":\"7c5573a83ba54ac5b8b412988bd8f29c\"},{\"answer_id\":\"b2d9ea3ac32e4e2591342d7998a461d3\"},{\"answer_id\":\"3927118dce35411b90dda96143659f4f\"},{\"answer_id\":\"c4bff4466b1e480191d4738916c6d90c\"},...
 </sup>
 <p></p>
 
