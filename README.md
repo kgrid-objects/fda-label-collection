@@ -116,7 +116,7 @@ curl -X 'POST' \
 
    You will get all the QA pairs as output by running the curl command above:
 
-```
+<sup>
 {
     "result": {
         "QApair_1": {
@@ -136,7 +136,7 @@ curl -X 'POST' \
             "answer_nature": "Unequivocal Answer"
         },
         ...
-```
+</sup>
 
 3. Next, change the '0' to a '1' in the last line of the curl command to the following and run it again:
 
@@ -146,10 +146,9 @@ curl -X 'POST' \
 
   You will get a list of all of the question identifiers (question_ids) this way:
   
-```
+
 "result": "[{\"question_id\":\"b8408b213e84449dbb09fe9efc8fce44\"},{\"question_id\":\"ad47b354ee714cc8b7ad6ed73ca889c9\"},{\"question_id\":\"b130fa66457849efb6272ec7deca93e1\"},{\"question_id\":\"7df59111730a49699f6864257c73738e\"},{\"question_id\":\"656d693bbe8f49b4b2f7f8527655636e\"},{\"question_id\":\"0109d944130344c2869ebc8e9329ac91\"},
 ...
-```
 
 4. Do thi
 5. d
