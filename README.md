@@ -105,7 +105,7 @@ https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1
 ## 4. INSTRUCTIONS FOR USING THE REMDESIVIR LABEL API
 
 
-#### TRY OUT THE REMDESIVIR LABEL API IMMEDIATELY VIA THE WEB
+#### TRY OUT THE REMDESIVIR LABEL API IMMEDIATELY VIA THE WEB WITH REQBIN
 
 
 We have deployed this API already. It is easy to try it!  Just do this:
