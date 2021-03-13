@@ -103,8 +103,7 @@ https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1
 
 We have deployed this API already. It is easy to try it!  Just do this:
 
-1. Using your browser, go to https://reqbin.com/curl 
-2. Cut and paste the following command into the window shown below
+1. Copy the following four-line CURL command
 
 ```
 curl -X 'POST' \
@@ -113,7 +112,12 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '0'
 ```
-   Expected output when input is '0' includes ALL of the 86 QA pairs:
+
+2. Using your browser, go to https://reqbin.com/curl  
+
+3. At REQBIN, paste the CURL command you copied above into the box on the left and click the 'Run' button
+
+   After clicking 'Run', the expected output when input is '0' includes ALL of the 86 QA pairs:
    
 <sup>
 {
@@ -144,7 +148,7 @@ curl -X 'POST' \
   -d '1'
 ```
 
-  Expected ouput when input is '1' is a list of all question identifiers only:
+  The expected ouput when input is '1' is a list of all question identifiers only:
   
 <sup>
 "result": "[{\"question_id\":\"b8408b213e84449dbb09fe9efc8fce44\"},{\"question_id\":\"ad47b354ee714cc8b7ad6ed73ca889c9\"},{\"question_id\":\"b130fa66457849efb6272ec7deca93e1\"},{\"question_id\":\"7df59111730a49699f6864257c73738e\"},{\"question_id\":\"656d693bbe8f49b4b2f7f8527655636e\"},{\"question_id\":\"0109d944130344c2869ebc8e9329ac91\"},
@@ -158,7 +162,7 @@ curl -X 'POST' \
   -d '2'
 ```
 
-  Expected ouput when input is '2' is a list of all question identifiers and their corresponding questions:
+  This time, the expected ouput when input is '2' is a list of all question identifiers and their corresponding questions:
 
 <sup>
  "result": "[{\"question_id\":\"b8408b213e84449dbb09fe9efc8fce44\",\"question\":\"What is its brand name?\"},{\"question_id\":\"ad47b354ee714cc8b7ad6ed73ca889c9\",\"question\":\"What is its generic name?\"},{\"question_id\":\"b130fa66457849efb6272ec7deca93e1\",\"question\":\"What drug products are included?\"},{\"question_id\":\"7df59111730a49699f6864257c73738e\",\"question\":\"What year was its initial U.S. approval?\"},{\"question_id\":\"656d693bbe8f49b4b2f7f8527655636e\",\"question\":\"What is its indication?\"},{\"question_id\":\"0109d944130344c2869ebc8e9329ac91\",\"question\":\"Where should it be administered?\"},{\"question_id\":\"a79effe7b17d4a778e13dc8858b6d225\",\"question\":\"What testing needs to be done before Initiating and during treatment?\"},{\"question_id\":\"c3e78446f57f4580872e8f085dc02863\",\"question\":\"What testing of kidney function needs to be done before initiating and during treatment?\"},{\"question_id\":\"42799976d99f4b8bb900584e4c4ba39f\",\"question\":\"What testing of liver function needs to be done before initiating and during treatment?\"},{\"question_id\":\"16bf1bea6419487ea70e8fb869d4a5ef\",\"question\":\"What testing related to blood coagulation needs to be done before initiating and during treatment? \"},{\"question_id\":\"ee8f02b6e42c4c8895faa75fd29b7806\",\"question\":\"What is the recommended dosage?\"},{\"question_id\":\"16e23675e7794705b4bfeb119321c466\",\"question\":\"What is the recommended treatment duration?\"},...   
@@ -166,13 +170,13 @@ curl -X 'POST' \
 <p></p>
 
 
-5. Next, change the '2' to a '3' in the last line of the curl command and run it again on REQBIN:
+5. Next, change the '2' to a '3' in the last line of the curl command and run it once again on REQBIN:
 
 ```
   -d '3'
 ```
 
-  Expected ouput when input is '3' is a list of all answer identifiers only:
+  The expected ouput when input is '3' is a list of all answer identifiers only:
 
 <sup>
  "result": "[{\"answer_id\":\"95dca543c2344635b15a90e3c2fac164\"},{\"answer_id\":\"0448074035454eacabeddaabb6777820\"},{\"answer_id\":\"74d406dff7cd4774a538f1fe8bb90cdc\"},{\"answer_id\":\"bd10d1988c90413599e83481a46b1546\"},{\"answer_id\":\"7c5573a83ba54ac5b8b412988bd8f29c\"},{\"answer_id\":\"b2d9ea3ac32e4e2591342d7998a461d3\"},{\"answer_id\":\"3927118dce35411b90dda96143659f4f\"},{\"answer_id\":\"c4bff4466b1e480191d4738916c6d90c\"},...
