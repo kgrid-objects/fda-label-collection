@@ -103,7 +103,7 @@ https://github.com/kgrid-objects/fda-label-collection/releases/tag/Version1
 
 We have deployed this API already. It is easy to try it!  Just do this:
 
-1. Using your browser, go to <a href="https://reqbin.com/curl" target="_blank" rel="noopener noreferrer"></a>
+1. Using your browser, go to https://reqbin.com/curl 
 2. Cut and paste the following command into the window shown below
 
 ```
