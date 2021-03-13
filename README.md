@@ -36,7 +36,7 @@ Here we provide initial experimental results from work to make the information i
 The files and work described in the paper are available for inspection and review here, including:
 
 
-### A copy of the October 2020 Remedesivir Label in PDF format
+#### A copy of the October 2020 Remedesivir Label in PDF format
 
   [Link to File: PDF October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/PDF%20Oct%202020%20Remdesivir.pdf)
 
