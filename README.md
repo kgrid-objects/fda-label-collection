@@ -1,6 +1,6 @@
 # fda-label-collection
 
-Last revised: March 11, 2021
+Last revised: March 13, 2021
 
 ### This README and its collection of files correspond to the paper under review titled:
 "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
