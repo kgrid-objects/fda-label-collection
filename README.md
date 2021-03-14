@@ -11,13 +11,13 @@ Correspondence should be directed to: Dr. Allen Flynn at the University of Michi
 
 ## TABLE OF CONTENTS
 
-   #### 1. PURPOSE OF THIS WORK
+   #### 1. [PURPOSE OF THIS WORK](#1-purpose-of-this-work-1)
 
-   #### 2. BREIF TECHNICAL BACKGROUND
+   #### 2. [BRIEF TECHNICAL BACKGROUND](#2-brief-technical-background)
    
-   #### 3. REVIEW OF FILES
+   #### 3. [REVIEW OF FILES](#3-review-of-files-1)
    
-   #### 3. INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API
+   #### 4. [INSTRUCTIONS FOR DEPLOYING AND USING THE REMDESIVIR LABEL API](#4-instructions-for-using-the-remdesivir-label-api)
 
 ---
 
@@ -29,7 +29,7 @@ Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceu
 
 This project begins with an experiment to determine how the content in SPLs might be made computer accessible.
 
-Here we provide initial experimental results from work to make the information in the SPL for remdesivir computer accessible. The maaterials here are openly available for inspection, review, and comment.
+Here we provide initial experimental results from work to make the information in the SPL for remdesivir computer accessible. The materials here are openly available for inspection, review, and comment.
 
 ---
 
@@ -48,28 +48,28 @@ The files and work described in the paper are available for inspection and revie
 
   [Link to File: PDF October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/PDF%20Oct%202020%20Remdesivir.pdf)
 
-  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/PDF.image.png" height = "400">
+  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/PDF.image.png" height= "75%" width = "75%">
   
 
 #### A copy of the October 2020 Remedesivir Prescribing Information in XML format
 
    [Link to File: XML October 2020 Remdesivir](https://github.com/kgrid-objects/fda-label-collection/blob/main/XML%20Oct%202020%20Remdesivir.xml) 
   
-   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XML.image.png" width = "400">
+   <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XML.image.png" height= "75%" width = "75%">
    
 
 #### An Excel file with Remdesivir Prescribing Information organized into 86 question-and-answer pairs (QA pairs)
 
   [Link to File: XL with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/XL%20Table%20with%2086%20QApairs.xlsx)
   
-  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XL.image.png" width = "400">
+  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/XL.image.png" height= "100%" width = "100%">
 
 
 #### A file with a JSON data object combining all 86 QA pairs
 
   [Link to File: JSON with 86 QA Pairs](https://github.com/kgrid-objects/fda-label-collection/blob/main/JSON.dataObject%20with%2086%20QApairs.txt)
   
-  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/JSON.image.png" height = "300">
+  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/JSON.image.png" height= "50%" width = "50%">
 
 
 
@@ -224,28 +224,29 @@ https://editor.swagger.io?url=https://activator-playground.herokuapp.com/kos/js/
 
 The link above should take you to a browser screen that looks like this:
 
- <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/SWAGGER.image.png" width = "600">
+ <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/SWAGGER.image.png" height= "100%" width = "100%">
 
 To engage the API using the Swagger Editor, click on the green POST request button on the right to begin.
 
 #### TRY OUT THE REMDESIVIR LABEL API USING POSTMAN
 
-1. Download and install POSTMAN
+1. Download and install POSTMAN from https://www.postman.com/downloads/
 2. Download POSTMAN requests collection file from this repo
-3. Run POSTMAN
-4. Upload POSTMAN requests colllection file into your copy of POSTMAN
+3. Run POSTMAN on your machine
+4. Click the Import button and select the requests collection file
+> Note: If you don't see a button called Import, you can find it under the File menu.    
 5. ... 
 
 <MORE HERE>
  send a POST request to https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content
 
- - In the body of the request, select “raw” JSON and enter the test answer ID “ce519bb9d44f475bb4c3b0b8b5399fb6”
+ - In the body of the request, select “raw” JSON and enter the test answer ID "ce519bb9d44f475bb4c3b0b8b5399fb6" (with quotes)
 
-  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/test_ko.image.png" width = "800">
+  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/test_ko.image.png" height= "100%" width = "100%">
 
  - Send the POST request. A successful response should return the “result” JSON object with information on the KO following it.
 
-  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/response_ko.image.png" width = "800">
+  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/response_ko.image.png" height= "100%" width = "100%">
 
 
 
@@ -260,7 +261,7 @@ The general steps to follow are:
 
 1. Download the KGrid Activator from 
 2. Learn how to configure and use the KGrid Activator at 
-3. Download the Remdesivir KO ZIP flie from this repo
+3. Download the Remdesivir KO ZIP file from this repo
 4. Unzip and activate the Remdesivir KO on your server using the Activator
 5. Engage the resulting Remdesivir Prescribing Information API wherever you have deployed it
 
