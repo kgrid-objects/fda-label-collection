@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "a12b81e4-e8ef-447b-8a59-c75e4fdf9d21",
+		"name": "fda-label-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://activator-playground.herokuapp.com/kos Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ko",
+							"type": "file",
+							"src": "/Users/natalielampa/Programming/GitHub/fda-label-collection/remdesivir-label-v1.0.zip"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://activator-playground.herokuapp.com/kos",
+					"protocol": "https",
+					"host": [
+						"activator-playground",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"kos"
+					],
+					"query": [
+						{
+							"key": "ko",
+							"value": null,
+							"disabled": true
+						}
+					]
+				},
+				"description": "Post to KGrid"
+			},
+			"response": []
+		},
+		{
+			"name": "https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"0\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content",
+					"protocol": "https",
+					"host": [
+						"activator-playground",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"js",
+						"fda_label_content",
+						"1.0",
+						"fda_label_content"
+					]
+				},
+				"description": "Testing KO posted to library"
+			},
+			"response": []
+		},
+		{
+			"name": "https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"ce519bb9d44f475bb4c3b0b8b5399fb6\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content",
+					"protocol": "https",
+					"host": [
+						"activator-playground",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"js",
+						"fda_label_content",
+						"1.0",
+						"fda_label_content"
+					]
+				},
+				"description": "Testing call to KO "
+			},
+			"response": []
+		}
+	]
+}
