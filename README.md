@@ -91,7 +91,9 @@ KOs carry content that is computer accessible. In this case, that content is ins
 #### A Postman requests file for engaging the API backed by the Remdesivir Label Knowledge Object
 
 
-This file can be downloaded and then imported into Postman. For more information about this, see the instructions below.
+This file can be downloaded at the link below and then imported into Postman. For more information about this, see section 4. INSTRUCTIONS FOR USING THE REMDESIVIR LABEL API.
+
+https://github.com/kgrid-objects/fda-label-collection/blob/main/fda-label-collection.postman_collection.json
 
 
 #### A Release of the Remdesivir Label Knowledge Object in a ZIP file
