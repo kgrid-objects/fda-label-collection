@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "a12b81e4-e8ef-447b-8a59-c75e4fdf9d21",
+		"_postman_id": "fe7846d9-6f58-4e31-9b94-abed56db440b",
 		"name": "fda-label-collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "https://activator-playground.herokuapp.com/kos Copy",
+			"name": "Optional  -  Deploy the Remdesivir Label API on your own server",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -39,48 +39,12 @@
 						}
 					]
 				},
-				"description": "Post to KGrid"
+				"description": "Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to use the Knowledge Object in this repo and deploy the Remdesivir Prescribing Information API any suitable server.\r\n\r\nTo do this, it will help if have prior experience with system administration and API deployment. We can only provide high-level instructions at https://github.com/kgrid-objects/fda-label-collection#deploy-the-remdesivir-label-api-on-your-own-server"
 			},
 			"response": []
 		},
 		{
-			"name": "https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content Copy",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "\"0\"",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content",
-					"protocol": "https",
-					"host": [
-						"activator-playground",
-						"herokuapp",
-						"com"
-					],
-					"path": [
-						"js",
-						"fda_label_content",
-						"1.0",
-						"fda_label_content"
-					]
-				},
-				"description": "Testing KO posted to library"
-			},
-			"response": []
-		},
-		{
-			"name": "https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content Copy",
+			"name": "Example 1",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -109,6 +73,39 @@
 					]
 				},
 				"description": "Testing call to KO "
+			},
+			"response": []
+		},
+		{
+			"name": "Example 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "-1",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content",
+					"protocol": "https",
+					"host": [
+						"activator-playground",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"js",
+						"fda_label_content",
+						"1.0",
+						"fda_label_content"
+					]
+				},
+				"description": "Example 2 shows a help output when the input cannot be found."
 			},
 			"response": []
 		}
