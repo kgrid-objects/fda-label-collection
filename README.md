@@ -232,25 +232,44 @@ To engage the API using the Swagger Editor, click on the green POST request butt
 
 #### TRY OUT THE REMDESIVIR LABEL API USING POSTMAN
 
-1. Download and install POSTMAN from https://www.postman.com/downloads/
-2. Download POSTMAN requests collection file from this repo
-3. Run POSTMAN on your machine
-4. Click the Import button and select the requests collection file
-> Note: If you don't see a button called Import, you can find it under the File menu.    
-5. ... 
+STEP 1. Download and install POSTMAN from https://www.postman.com/downloads/
 
-<MORE HERE>
- send a POST request to https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content
+STEP 2. Copy the following link:
+`https://raw.githubusercontent.com/kgrid-objects/fda-label-collection/main/fda-label-collection.postman_collection.json`
+> This link points to the POSTMAN requests collection file that we created. Alternatively, you can download this file by right clicking <a href="https://raw.githubusercontent.com/kgrid-objects/fda-label-collection/main/fda-label-collection.postman_collection.json">HERE</a> and
+select save link as; if you choose to download the file then stay on the `File` tab after you click the Import button (do not select the `Link` tab).
 
- - In the body of the request, select “raw” JSON and enter the test answer ID "ce519bb9d44f475bb4c3b0b8b5399fb6" (with quotes)
+STEP 3. Run POSTMAN on your machine
 
-  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/test_ko.image.png" height= "100%" width = "100%">
+STEP 4. Click on `Import` button as seen below
 
- - Send the POST request. A successful response should return the “result” JSON object with information on the KO following it.
+<img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/POSTMAN.image.png" height= "38%" width = "38%">
 
-  <img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/response_ko.image.png" height= "100%" width = "100%">
+STEP 5. Select the `Link` tab, paste the copied link and click the `Continue` button
 
+<img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/POSTMAN.image2.png" height= "100%" width = "100%">
 
+STEP 6. Expand the `fda-label-collection` and then click `Example 1`
+
+STEP 7. Click on blue `Send` button which will initiate a POST request to https://activator-playground.herokuapp.com/js/fda_label_content/1.0/fda_label_content
+> By default, the body of the request should show “raw” JSON is selected and the answer id "ce519bb9d44f475bb4c3b0b8b5399fb6" (with quotes) on the first line
+
+<img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/test_ko.image.png" height= "100%" width = "100%">
+
+STEP 8. A successful response should return the “result” JSON object with information on the KO following it.
+
+<img src ="https://github.com/kgrid-objects/fda-label-collection/blob/main/readmeImages/response_ko.image.png" height= "100%" width = "100%">
+
+> We included an `Example 2` which after you click the blue Send button you should get back the following message:
+
+```
+{
+    "result": "\nInput error. Please try again.\n\t\t\n0 = send the whole remdesivir_label_object\t\t\n1 = send all of the question IDs as a list\t\t\n2 = send all of the question IDs and questions\t\t\n3 = send all of the answer IDs as a list\t\t\n4 = send all of the answer IDs and answers\t\t\nquestion/answer identifier = send the single object",
+    "info": ...
+}
+```
+
+> We have also provided an optional file called `Optional - Deploy the Remdesivir Label API on your own server` which is revelant to the section below.
 
 #### DEPLOY THE REMDESIVIR LABEL API ON YOUR OWN SERVER
 
