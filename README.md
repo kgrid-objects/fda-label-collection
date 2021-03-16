@@ -1,6 +1,6 @@
 # fda-label-collection
 
-Last revised: March 13, 2021
+Last revised: March 16, 2021
 
 ### This README and its collection of files correspond to the paper under review titled:
 "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
@@ -280,11 +280,11 @@ To do this, it will help if have prior experience with system administration and
 
 The general steps to follow are:
 
-1. Download the KGrid Activator from 
-2. Learn how to configure and use the KGrid Activator at 
-3. Download the Remdesivir KO ZIP file from this repo
-4. Unzip and activate the Remdesivir KO on your server using the Activator
-5. Engage the resulting Remdesivir Prescribing Information API wherever you have deployed it
+1. Download the KGrid Activator from its release site: https://github.com/kgrid/kgrid-activator/releases/tag/kgrid-activator-1.5.1 
+2. Learn how to configure and use the KGrid Activator at: https://kgrid.org/kgrid-activator/#activator-quick-start
+3. Download the Remdesivir KO ZIP file release from this repo: https://github.com/kgrid-objects/fda-label-collection/releases
+4. First, unzip and then, once the KO is unzipped, activate the Remdesivir Label KO on your server using the KGrid Activator
+5. Engage the resulting Remdesivir Prescribing Information API wherever you have deployed it (see API use examples above)
 
 
 ---
