@@ -274,15 +274,15 @@ STEP 8. A successful response should return the “result” JSON object with in
 #### DEPLOY THE REMDESIVIR LABEL API ON YOUR OWN SERVER
 
 
-Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to use the Knowledge Object in this repo and deploy the Remdesivir Prescribing Information API any suitable server.
+Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to download and deploy the Remdesivir Label to establish the Remdesivir Label API on any suitable server (including many current laptops).
 
-To do this, it will help if have prior experience with system administration and API deployment. We can only provide high-level instructions here. The instructions use the remdesivir Knowledge Object (KO) provided here.
+To establish the API locally on a server, it will help if have prior experience with system administration and API deployment. We can only provide high-level instructions here. 
 
 The general steps to follow are:
 
 1. Download the KGrid Activator from its release site: https://github.com/kgrid/kgrid-activator/releases/tag/kgrid-activator-1.5.1 
 2. Learn how to configure and use the KGrid Activator at: https://kgrid.org/kgrid-activator/#activator-quick-start
-3. Download the Remdesivir KO ZIP file release from this repo: https://github.com/kgrid-objects/fda-label-collection/releases
+3. Download the Remdesivir Label KO ZIP file release from this repo: https://github.com/kgrid-objects/fda-label-collection/releases
 4. First, unzip and then, once the KO is unzipped, activate the Remdesivir Label KO on your server using the KGrid Activator
 5. Engage the resulting Remdesivir Prescribing Information API wherever you have deployed it (see API use examples above)
 
