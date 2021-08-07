@@ -25,7 +25,7 @@ Correspondence should be directed to: Dr. Allen Flynn at the University of Michi
 
 The purpose of this work is to make FDA approved prescribing information not just available online but truly computer accessible. 
 
-Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceutical manufacturers to submit drug product prescribing information in  XML format using a common XML document schema called the Structured Product Label (SPL). SPLs resulted in global online access to FDA-approved prescribing information via  DailyMed from the U.S. National Library of Medicine (dailymed.nlm.nih.gov). People can read the content of SPLs using a computer browser but SPLs did not make that content computer accessible, let alone executable. 
+Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceutical manufacturers to submit drug product prescribing information in  XML format using a common XML document schema called the [Structured Product Label (SPL)](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=96). SPLs resulted in global online access to FDA-approved prescribing information via  DailyMed from the U.S. National Library of Medicine (dailymed.nlm.nih.gov). People can read the content of SPLs using a computer browser but SPLs did not make that content computer accessible, let alone executable. 
 
 This project begins with an experiment to determine how the content in SPLs might be made computer accessible.
 
