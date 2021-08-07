@@ -1,6 +1,6 @@
 # fda-label-collection
 
-Last revised: March 16, 2021
+Last revised: August 7, 2021
 
 ### This README and its collection of files correspond to the paper under review titled:
 "An Experiment to Convert Structured Product Labels to Computable Prescribing Information"
@@ -29,7 +29,9 @@ Starting in 2005, the U.S. Food and Drug Administration (FDA) required pharmaceu
 
 This project begins with an experiment to determine how the content in SPLs might be made computer accessible.
 
-Here we provide initial experimental results from work to make the information in the SPL for remdesivir computer accessible. The materials here are openly available for inspection, review, and comment.
+Here we provide initial experimental results from work to make the information in the SPL for remdesivir computer accessible. 
+
+The materials here are openly available for inspection, review, and comment. Send comments to (ajflynn@umich.edu).
 
 ---
 
@@ -116,7 +118,7 @@ STEP 1. Copy the following four-line CURL command
 
 ```
 curl -X 'POST' \
-  'https://activator-playground.herokuapp.com/js/fda_label_content/fda_label_content' \
+  'https://activator.kgrid.org/js/fda_label_content/fda_label_content' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '0'
@@ -222,7 +224,7 @@ The output from this request gives the indication :
 
 Here is a link to a page where the API can be tried online in a different way using the Swagger Editor:
 
-https://editor.swagger.io?url=https://activator-playground.herokuapp.com/kos/js/fda_label_content/v1.0/service.yaml
+https://editor.swagger.io/?url=https://activator.kgrid.org/kos/js/fda_label_content/v1.0/service.yaml
 
 The link above should take you to a browser screen that looks like this:
 
@@ -274,7 +276,7 @@ STEP 8. A successful response should return the “result” JSON object with in
 #### DEPLOY THE REMDESIVIR LABEL API ON YOUR OWN SERVER
 
 
-Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to download and deploy the Remdesivir Label to establish the Remdesivir Label API on any suitable server (including many current laptops).
+Using Knowledge Grid technology - specifically the Knowledge Grid Activator API Gateway Tool - it is possible to download and deploy the Remdesivir Label to establish the Remdesivir Label API on any suitable server (including typical laptops).
 
 To establish the API locally on a server, it will help if have prior experience with system administration and API deployment. We can only provide high-level instructions here. 
 
