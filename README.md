@@ -271,7 +271,7 @@ STEP 8. A successful response should return the “result” JSON object with in
 }
 ```
 
-> We have also provided an optional file called `Optional - Deploy the Remdesivir Label API on your own server` which is revelant to the section below.
+> We have also provided an optional incomplete request called `Optional - Deploy the Remdesivir Label API on your own server` which is revelant to the section below.  This optional API request is intended for folks who have implemented the Knowledge Grid Activator API Gateway Tool already.
 
 #### DEPLOY THE REMDESIVIR LABEL API ON YOUR OWN SERVER
 
