@@ -31,7 +31,7 @@ This project begins with an experiment to determine how the content in SPLs migh
 
 Here we provide initial experimental results from work to make the information in the SPL for remdesivir computer accessible. 
 
-The materials here are openly available for inspection, review, and comment. Send comments to (ajflynn@umich.edu).
+The materials here are openly available for inspection, review, and comment. Send comments to ajflynn@umich.edu.
 
 ---
 
